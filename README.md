@@ -16,11 +16,15 @@ A React-based application for visualizing and analyzing Apple Inc.'s financial d
 - npm (v6 or higher)
 - Financial Modeling Prep API key
 
-## Installation
+## Live Demo
+
+Visit the live application at: [ValueGlance App](https://valueglance-ou0wwisnx-adityas-projects-9cf229ca.vercel.app/)
+
+## Quick Start
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/valueglance.git
+git clone https://github.com/adityapatel149/valueglance.git
 cd valueglance
 ```
 
@@ -29,15 +33,28 @@ cd valueglance
 npm install
 ```
 
-3. Create a `.env` file in the root directory and add your API key:
-```
+3. Create environment variables:
+   - Create a `.env` file in the root directory
+   - Add your Financial Modeling Prep API key:
+```env
 REACT_APP_FMP_API_KEY=your_api_key_here
 ```
 
-4. Start the development server:
+4. Run locally:
 ```bash
 npm start
 ```
+The app will be available at `http://localhost:3000`
+
+## Deployment
+
+This project is deployed on Vercel. The deployment is automatically triggered when changes are pushed to the main branch.
+
+### Deployment URL
+Production: [https://valueglance-ou0wwisnx-adityas-projects-9cf229ca.vercel.app/](https://valueglance-ou0wwisnx-adityas-projects-9cf229ca.vercel.app/)
+
+### Repository
+GitHub: [https://github.com/aditya7777777-mahi/valueglance](https://github.com/aditya7777777-mahi/valueglance)
 
 ## Project Structure
 
